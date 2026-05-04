@@ -16,48 +16,47 @@ import random
 # CONFIG #
 class Config:
    
-    TOKEN = ""  # Your bot token from Discord Developer Portal
-    PREFIX = ";"  # The prefix to use before commands (e.g. !nuke), you can also delete the prefix if you don't want one
-    WHITELIST = [984031640999309342]  # List of user IDs who can use the bot commands, don't give any ids if you want anyone to use bot.
+    TOKEN = "" 
+    PREFIX = ";"  
+    WHITELIST = [984031640999309342]  
 
-    SPAM_MESSAGE = "DIE NIGGAS @everyone FUCK YOU!!"  # The message that will be spammed in channels
-    SPAM_COUNT = 50  # How many times to send the spam message in each channel
-    TEXT_TO_SPEECH = False  # If true, messages will be read aloud by Discord's text-to-speech
-    DM_MESSAGE = "THE SERVER GOT NUKED BY SMOKELESSENJOYER"  # Message sent to all members via direct message
+    SPAM_MESSAGE = "DIE NIGGAS @everyone FUCK YOU!!"  
+    SPAM_COUNT = 50 
+    TEXT_TO_SPEECH = False  
+    DM_MESSAGE = "THE SERVER GOT NUKED BY SMOKELESSENJOYER"  
 
-    CHANNEL_NAME = "nuked by SMOKELESSENJOYER"  # Base name for created text channels
-    CHANNELS_COUNT = 50  # How many text channels to create
-    NEW_CHANNEL_NAME = "nuked by SMOKELESSENJOYER"  # Name pattern when renaming existing channels
-    VOICE_CHANNELS_COUNT = 50  # How many voice channels to create
-    VOICE_CHANNEL_NAME = "NUKED by SMOKELESSENJOYER"  # Base name for created voice channels
-    CATEGORY_NAME = "NUKED by SMOKELESSENJOYER"  # Base name for created categories
-    CATEGORIES_COUNT = 10  # How many categories to create
-    THREAD_COUNT = 5  # How many threads to create in each text channel
-    THREAD_NAME = "nuked"  # Base name for created threads
-    NSFW_CHANNEL_NAME = "nuked"  # Base name for NSFW channels
-    SLOWMODE_DURATION = 300  # Slowmode duration in seconds for all channels
+    CHANNEL_NAME = "nuked by SMOKELESSENJOYER" 
+    CHANNELS_COUNT = 50  
+    NEW_CHANNEL_NAME = "nuked by SMOKELESSENJOYER"  
+    VOICE_CHANNELS_COUNT = 50 
+    VOICE_CHANNEL_NAME = "NUKED by SMOKELESSENJOYER"  
+    CATEGORY_NAME = "NUKED by SMOKELESSENJOYER"  
+    CATEGORIES_COUNT = 10  
+    THREAD_COUNT = 5  
+    THREAD_NAME = "nuked" 
+    NSFW_CHANNEL_NAME = "nuked" 
+    SLOWMODE_DURATION = 300  
 
-    ROLE_NAME = "nuked by SMOKELESSENJOYER"  # Base name for created roles
-    ROLES_COUNT = 10  # How many roles to create
-    NEW_ROLE_NAME = "nuked by SMOKELESSENJOYER"  # Name pattern when renaming existing roles
-    ADMIN_ROLE_NAME = "ADMIN"  # Name of the admin role given to everyone
+    ROLE_NAME = "nuked by SMOKELESSENJOYER"  
+    ROLES_COUNT = 10 
+    NEW_ROLE_NAME = "nuked by SMOKELESSENJOYER" 
+    ADMIN_ROLE_NAME = "ADMIN"  
 
-    SERVER_NAME = "NUKED SERVER"  # New name for the server
-    SERVER_ICON_URL = "https://uploads.onecompiler.io/43gvrzfhm/44n9mguuy/6451892641cbf37276d80117cde5d799.webp"  # URL of new server icon
-    NICKNAME = "NUKED by SMOKELESSENJOYER"  # New nickname for all members
-    TIMEOUT_DURATION = 28  # Timeout duration in days for all members, anything above 28 will not work
+    SERVER_NAME = "NUKED SERVER"  
+    SERVER_ICON_URL = "https://uploads.onecompiler.io/43gvrzfhm/44n9mguuy/6451892641cbf37276d80117cde5d799.webp"  
+    NICKNAME = "NUKED by SMOKELESSENJOYER"  
+    TIMEOUT_DURATION = 28  
+    WEBHOOK_NAME = "NUKED BITCHASS" 
+    WEBHOOK_COUNT = 10  
+    WEBHOOK_RENAME = " BITCHASS"  
 
-    WEBHOOK_NAME = "NUKED BITCHASS"  # Base name for created webhooks
-    WEBHOOK_COUNT = 10  # How many webhooks to create per channel
-    WEBHOOK_RENAME = " BITCHASS"  # Name pattern when renaming webhooks
+    INVITE_COUNT = 10  
 
-    INVITE_COUNT = 10  # How many invite links to create per channel
+    PIN_SPAM_COUNT = 5  
 
-    PIN_SPAM_COUNT = 5  # How many random messages to pin in each channel
+    MOVE_VOICE_CHANNEL_NAME = "LOSERS"  
 
-    MOVE_VOICE_CHANNEL_NAME = "LOSERS"  # Name of voice channel to moves everyone to
-
-    CHAOS_PERMISSIONS = [True, False, None]  # Random permission states for chaos commands, do not change if you dont know what your doing
+    CHAOS_PERMISSIONS = [True, False, None] 
 
 
 
